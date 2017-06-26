@@ -1,5 +1,5 @@
 var Task = require('./task');
-var repoFactory = require('./repoFactory');
+var repoFactory = require('./repoFactorywCache');
 
 var task1 = new Task(repoFactory.getRepo('task').get(1));
 var task2 = new Task(repoFactory.getRepo('task').get(2));
