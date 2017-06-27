@@ -22,4 +22,4 @@ var repoFactory = function () {
     }
 };
 
-module.exports = new repoFactory; //话说，为什么new的时候不在后面加括号呢？
+module.exports = new repoFactory; //话说，为什么new的时候不在后面加括号呢？这个问题已经解决，见笔记P256~257最下方
